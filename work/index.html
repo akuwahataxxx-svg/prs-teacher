@@ -19,15 +19,11 @@
       <div class="syosai">名字
         <span class="aka">※</span>
       </div>
-      <div>
-        <input class="text_box" type="text">
-      </div>
+      <input id="myouji_txt" class="text_box" type="text">
       <div class="syosai">名前
         <span class="aka">※</span>
       </div>
-      <div>
-        <input class="text_box" type="text">
-      </div>
+      <input id="name_txt" class="text_box" type="text">
       <div class="syosai">生年月日
         <span class="aka">※</span>
       </div>
@@ -84,32 +80,22 @@
       <div class="syosai">性別
         <span class="aka">※</span>
       </div>
-      <!-- <div class="radio_btn">
-        <input class="radio" type="radio" id="sex">
-        <label class="radio_label" for="sex">男性</label>
+      <div class="radio_sex">
+        <label class="radio_btn">
+          <input class="radio" type="radio" name="gender" value="man">
+          <span class="radio_label">男性</span>
+        </label>
+        <label class="radio_btn">
+          <input class="radio" type="radio" name="gender" value="woman">
+          <span class="radio_label">女性</span>
+        </label>
+        <label class="radio_btn">
+          <input class="radio" type="radio" name="gender" value="other">
+          <span class="radio_label">その他</span>
+        </label>
       </div>
-      <div class="radio_btn">
-        <input class="radio" type="radio" id="sex">
-        <label class="radio_label" for="sex">女性</label>
-      </div>
-      <div class="radio_btn">
-        <input class="radio" type="radio" id="sex">
-        <label class="radio_label" for="sex">その他</label>
-      </div> -->
-      <label class="radio_btn">
-        <input class="radio" type="radio" name="gender" value="man">
-        <span class="radio_label">男性</span>
-      </label>
-      <label class="radio_btn">
-        <input class="radio" type="radio" name="gender" value="woman">
-        <span class="radio_label">女性</span>
-      </label>
-      <label class="radio_btn">
-        <input class="radio" type="radio" name="gender" value="other">
-        <span class="radio_label">その他</span>
-      </label>
       <div class="syosai">職業</div>
-      <div>
+      <div div class="dropdown_position">
         <select class="dropdown" name="work_nm">
           <option value="" disabled selected>選択してください</option>
           <option value="">学生</option>
@@ -125,25 +111,25 @@
         <span class="aka">※</span>
       </div>
       <div>
-        <input class="text_box" type="text">
+        <input id="accountnm_txt" class="text_box" type="text">
       </div>
       <div class="syosai">メールアドレス
           <span class="aka">※</span>
       </div>
       <div>
-        <input class="text_box" type="text">
+        <input id="mail_txt" class="text_box" type="text">
       </div>
       <div class="syosai">パスワード
           <span class="aka">※</span>
       </div>
       <div>
-        <input class="text_box" type="text">
+        <input id="pass_txt" class="text_box" type="text">
       </div>
       <div class="syosai">確認用パスワード
           <span class="aka">※</span>
       </div>
       <div>
-        <input class="text_box" type="text">
+        <input id="pass2_txt" class="text_box" type="text">
       </div>
     </section>
     <section class="contact_info">
@@ -152,13 +138,13 @@
         <span class="aka">※</span>
       </div>
       <div>
-        <input class="text_box" type="text">
+        <input id="address_txt" class="text_box" type="text">
       </div>
       <div class="syosai">電話番号
           <span class="aka">※</span>
       </div>
       <div>
-        <input class="text_box" type="text">
+        <input id="tel_txt" class="text_box" type="text">
       </div>
       <div class="kbn">購読情報</div>
       <div class="checkbox_position origin_checkbox">
@@ -177,7 +163,5 @@
       </div>
     </section>
   </div>
-
 </body>
-
 </html>
