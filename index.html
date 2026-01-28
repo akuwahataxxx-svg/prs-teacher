@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FormPractice</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="top_form">フォーム作成</div>
+  <div class="input_form">
+    <div class="create_account">アカウント作成</div>
+    <section class="kojin_info">
+      <div class="kbn">個人情報</div>
+      <div class="syosai">名字
+        <span class="aka">※</span>
+      </div>
+      <div>
+        <input class="text_box" type="text">
+      </div>
+      <div class="syosai">名前
+        <span class="aka">※</span>
+      </div>
+      <div>
+        <input class="text_box" type="text">
+      </div>
+      <div class="syosai">生年月日
+        <span class="aka">※</span>
+      </div>
+      <div class="flex">
+        <div class="dropdown_position">
+          <select class="dropdown" name="year">
+            <option value="" disabled selected>年</option>
+            <option value="">2000</option>
+            <option value="">2001</option>
+            <option value="">2002</option>
+            <option value="">2003</option>
+            <option value="">2004</option>
+            <option value="">2005</option>
+            <option value="">2006</option>
+            <option value="">2007</option>
+            <option value="">2008</option>
+            <option value="">2009</option>
+            <option value="">2010</option>
+          </select>
+        </div>
+        <div class="dropdown_position">
+          <select class="dropdown" name="month">
+            <option value="" disabled selected>月</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+            <option value="">7</option>
+            <option value="">8</option>
+            <option value="">9</option>
+            <option value="">10</option>
+            <option value="">11</option>
+            <option value="">12</option>
+          </select>
+        </div>
+        <div class="dropdown_position">
+          <select class="dropdown" name="month">
+            <option value="" disabled selected>日</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+            <option value="">7</option>
+            <option value="">8</option>
+            <option value="">9</option>
+            <option value="">10</option>
+          </select>
+        </div>
+      </div>
+      <div class="syosai">性別
+        <span class="aka">※</span>
+      </div>
+      <!-- <div class="radio_btn">
+        <input class="radio" type="radio" id="sex">
+        <label class="radio_label" for="sex">男性</label>
+      </div>
+      <div class="radio_btn">
+        <input class="radio" type="radio" id="sex">
+        <label class="radio_label" for="sex">女性</label>
+      </div>
+      <div class="radio_btn">
+        <input class="radio" type="radio" id="sex">
+        <label class="radio_label" for="sex">その他</label>
+      </div> -->
+      <label class="radio_btn">
+        <input class="radio" type="radio" name="gender" value="man">
+        <span class="radio_label">男性</span>
+      </label>
+      <label class="radio_btn">
+        <input class="radio" type="radio" name="gender" value="woman">
+        <span class="radio_label">女性</span>
+      </label>
+      <label class="radio_btn">
+        <input class="radio" type="radio" name="gender" value="other">
+        <span class="radio_label">その他</span>
+      </label>
+      <div class="syosai">職業</div>
+      <div>
+        <select class="dropdown" name="work_nm">
+          <option value="" disabled selected>選択してください</option>
+          <option value="">学生</option>
+          <option value="">会社員</option>
+          <option value="">主婦</option>
+          <option value="">その他</option>
+        </select>
+      </div>
+    </section>
+    <section class="account_info">
+      <div class="kbn">アカウント情報</div>
+      <div class="syosai">アカウント名
+        <span class="aka">※</span>
+      </div>
+      <div>
+        <input class="text_box" type="text">
+      </div>
+      <div class="syosai">メールアドレス
+          <span class="aka">※</span>
+      </div>
+      <div>
+        <input class="text_box" type="text">
+      </div>
+      <div class="syosai">パスワード
+          <span class="aka">※</span>
+      </div>
+      <div>
+        <input class="text_box" type="text">
+      </div>
+      <div class="syosai">確認用パスワード
+          <span class="aka">※</span>
+      </div>
+      <div>
+        <input class="text_box" type="text">
+      </div>
+    </section>
+    <section class="contact_info">
+      <div class="kbn">連絡先</div>
+      <div class="syosai">住所
+        <span class="aka">※</span>
+      </div>
+      <div>
+        <input class="text_box" type="text">
+      </div>
+      <div class="syosai">電話番号
+          <span class="aka">※</span>
+      </div>
+      <div>
+        <input class="text_box" type="text">
+      </div>
+      <div class="kbn">購読情報</div>
+      <div class="checkbox_position origin_checkbox">
+        <input class="checkbox" type="checkbox" id="email_magazine">
+        <label class="syosai input_label" for="email_magazine">メールマガジン</label>
+      </div>
+      <div class="checkbox_position origin_checkbox">
+        <input class="checkbox" type="checkbox" id="coupon">
+        <label class="syosai input_label" for="coupon">クーポン</label>
+      </div>
+    </section>
+    <section class="btn">
+      <button type="submit" class="btn_submit">アカウント作成</button>
+      <div class="biko">アカウント作成することにより、
+      <a class="link">利用規約</a>と<a class="link">プライバシーポリシー</a>に同意するものとします。
+      </div>
+    </section>
+  </div>
+
+</body>
+
+</html>
