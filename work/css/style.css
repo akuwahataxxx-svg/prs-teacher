@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-  background-color: CFF1FF_1CFF1FF_1;
+  background-color: #CFF1FF;
 }
 
 .top_form{
@@ -14,7 +14,7 @@ body{
   margin: auto;
   width: 500px;
   padding: 50px;
-  background: ECFAFF_1ECFAFF_1;
+  background: #ECFAFF;
 }
 .create_account{
   text-align: center;
@@ -22,26 +22,26 @@ body{
 }
 .kbn{
  font-size: 18px;
- color: 000000_1000000_1;
+ color: #000000;
  margin-top: 50px;
 }
 .syosai{
   font-size: 14px;
-  color: 464646_1464646_1;
+  color: #464646;
   margin-top: 25px;
 }
 .aka{
-  color: E40000_1E40000_1;
+  color: #E40000;
 }
 .text_box{
   width: 100%;
   height: 35px;
   margin-top: 6px;
   padding: 5px;
-  color: 545658_1545658_1;
+  color: #545658;
   box-sizing: border-box;
-  border: 1px solid D9D9D9_1D9D9D9_1;
-  background: FBFBFB_1FBFBFB_1;
+  border: 1px solid #D9D9D9;
+  background: #FBFBFB;
 }
 input[type="radio"] {
     background-color: initial;
@@ -62,10 +62,10 @@ input[type="radio"] {
   height: 35px;
   margin-top: 6px;
   padding: 5px;
-  color: 545658_1545658_1;
+  color: #545658;
   box-sizing: border-box;
-  border: 1px solid D9D9D9_1D9D9D9_1;
-  background: FBFBFB_1FBFBFB_1;
+  border: 1px solid #D9D9D9;
+  background: #FBFBFB;
 }
 select{
   appearance: none;
@@ -83,8 +83,8 @@ select{
   right: 10px;
   top: 45%;
   display: inline-block;
-  border-bottom: 2px solid C3C3C3_1C3C3C3_1;
-  border-right: 2px solid C3C3C3_1C3C3C3_1;
+  border-bottom: 2px solid #C3C3C3;
+  border-right: 2px solid #C3C3C3;
   transform: rotate(45deg);
 }
 .radio_sex{
@@ -107,7 +107,7 @@ select{
   position: relative;
   display: inline-block;
   padding: 3px 3px 3px 20px;
-  color: 545658_1545658_1;
+  color: #545658;
 }
 .radio_btn span::before {
   content: "";
@@ -116,8 +116,8 @@ select{
   left: 0px;
   width: 14px;
   height: 14px;
-  background-color: FBFBFB_1FBFBFB_1;
-  border: 1px solid D9D9D9_1D9D9D9_1;
+  background-color: #FBFBFB;
+  border: 1px solid #D9D9D9;
   border-radius: 50%;
   transform: translateY(-50%);
 }
@@ -151,8 +151,8 @@ input:focus {
   width: 15px;
   height: 15px;
   margin-top: -8px;
-  border: 1px solid D9D9D9_1D9D9D9_1;
-  background: FFFFFF_1FFFFFF_1;
+  border: 1px solid #D9D9D9;
+  background: #FFFFFF;
 }
 
 .origin_checkbox input:checked + .input_label:after {
@@ -163,8 +163,8 @@ input:focus {
   width: 6px;
   height: 13px;
   margin-top: -11px;
-  border-right: 3px solid 0140BF_10140BF_1;
-  border-bottom: 3px solid 0140BF_10140BF_1;
+  border-right: 3px solid #0140BF;
+  border-bottom: 3px solid #0140BF;
   transform: rotate(45deg);
 }
 
@@ -172,14 +172,14 @@ input:focus {
   margin-top: 50px;
   width: 100%;
   padding: 13px;
-  background: 0170BF_10170BF_1;
+  background: #0170BF;
   color: #fff;
 }
 
 .btn_submit:active {
   background: #fff;
-  color: 0170BF_10170BF_1;
-  border: 1px solid D9D9D9_1D9D9D9_1;
+  color: #0170BF;
+  border: 1px solid #D9D9D9;
 }
 
 
@@ -189,7 +189,7 @@ input:focus {
 }
 
 .link{
-  color: 0170BF_10170BF_1;
+  color: #0170BF;
   text-decoration: none;
   cursor: pointer;
 }
@@ -200,5 +200,5 @@ input:focus {
 
 .label__text {
   font-size: 14px;
-  color: 464646_1464646_1;
+  color: #464646;
 }
